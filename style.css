@@ -32,7 +32,7 @@ html{
         font-size: 16px; 
     }
 } 
-@media all and (max-width: 375px) {
+@media all and (max-width: 576px) {
     #fullname {
         font-size: 24px; 
         color: rgba(183, 2, 223, 0.954);
