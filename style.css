@@ -1,9 +1,7 @@
-/* Hajar habiburahman 2211350 Section E*/
+/* Hajar habiburahman 2211350 Section E2*/
 html{
     scroll-behavior:smooth;
 }
-
-
 
 @media all and (max-width: 992px) {
     #fullname {
@@ -49,12 +47,7 @@ html{
     .certificates ul, .skills, .education p {
         font-size: 12px; 
     }
-
 }
-
-
-
-
 #logo{
     border-radius: 2px;
 }
