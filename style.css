@@ -1,6 +1,9 @@
+/* Hajar habiburahman 2211350 Section E*/
 html{
     scroll-behavior:smooth;
 }
+
+
 
 @media all and (max-width: 992px) {
     #fullname {
@@ -31,6 +34,24 @@ html{
         font-size: 16px; 
     }
 } 
+@media all and (max-width: 375px) {
+    #fullname {
+        font-size: 24px; 
+        color: rgba(183, 2, 223, 0.954);
+    }
+    h4 {
+        font-size: 18px; 
+    }
+    .lead, .subheading, .P-title  {
+        font-size: 14px; 
+    }
+
+    .certificates ul, .skills, .education p {
+        font-size: 12px; 
+    }
+
+}
+
 
 
 
@@ -137,8 +158,6 @@ ol, ul{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
     background-color: rgba(255, 255, 255, 1);
 }
-
-
 
 .P-title{
     font-size: 25px;
