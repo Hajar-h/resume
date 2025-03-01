@@ -2,16 +2,37 @@ html{
     scroll-behavior:smooth;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 992px) {
+    #fullname {
+        font-size: 70px; 
+        color: black;  
+    }
+    h4 ,.education p {
+        font-size: 28px; 
+    }
+    .lead ,.subheading, .P-title {
+        font-size: 40px; 
+    }
 
-#fullname{
-    font-size:50px;
-}
-h4{
-    padding-top: 15px;
 }
 
-}
+@media screen and (max-width: 768px) {
+    #fullname {
+        font-size: 50px; 
+        color: rgba(9, 77, 137, 0.954);
+    }
+    h4 {
+        font-size: 24px; 
+    }
+    .lead , .subheading, .P-title {
+        font-size: 30px; 
+    }
+    .certificates ul, .skills, .education p {
+        font-size: 16px; 
+    }
+} 
+
+
 
 #logo{
     border-radius: 2px;
